@@ -124,48 +124,47 @@
             </section>
         </div>
 
+        <section>
+            <h2>Contacto</h2>
+
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactános llenando todos los campos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu nombre"> <!--Este es el default-->
+                        </div>
+
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu número de telefono">
+                            <!--Este muestra solo para escribir números-->
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo electronico</label>
+                            <input class="input-text" type="email" placeholder="tu correo"> <!--Debes de poner @ para que sea válido-->
+                        </div>
+
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                            <!--Lo útilizamos cuando necesitamos ingresar mucho texto, es un area más grande que de lo normal -->
+                        </div>
+                    </div>
+
+                    <div class="enviar">
+                        <button class="boton" type="submit" value="Enviar">Enviar</button>
+                        <!--Este es para agregar un botón de tipo submit-->
+                    </div>
+                </fieldset>
+            </form>
+
+        </section>
     </main>
 
-    <section>
-        <h2>Contacto</h2>
-
-        <form>
-            <fieldset>
-
-                <legend>Contactános llenando todos los campos</legend>
-
-                <div>
-                    <label>Nombre</label>
-                    <input type="text" placeholder="Tu nombre"> <!--Este es el default-->
-                </div>
-
-                <div>
-                    <label>Teléfono</label>
-                    <input type="tel" placeholder="Tu número de telefono">
-                    <!--Este muestra solo para escribir números-->
-                </div>
-
-                <div>
-                    <label>Correo electronico</label>
-                    <input type="email" placeholder="tu correo"> <!--Debes de poner @ para que sea válido-->
-                </div>
-
-                <div>
-                    <label>Mensaje</label>
-                    <textarea></textarea>
-                    <!--Lo útilizamos cuando necesitamos ingresar mucho texto, es un area más grande que de lo normal -->
-                </div>
-
-                <div>
-                    <button type="submit" value="Enviar">Enviar</button>
-                    <!--Este es para agregar un botón de tipo submit-->
-                </div>
-            </fieldset>
-        </form>
-
-    </section>
-
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados. Dawdax freelancer</p>
     </footer>
 </body>
